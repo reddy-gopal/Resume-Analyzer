@@ -18,3 +18,5 @@ python-docx
 SQLAlchemy
 psycopg2-binary  # For PostgreSQL, use `sqlite3` for SQLite (built-in)
 streamlit-authenticator
+streamlit
+plotly
