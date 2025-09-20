@@ -1,0 +1,18 @@
+credentials:
+  usernames:
+    # Admin User (Placement Team)
+    admin:
+      email: admin@example.com
+      name: Placement Admin
+      password: '$2b$12$TwY0enMI9cUSdDw7hAZljevrvqL9dDPjjmBL/SicaaeGrhd3rzAki' # Replace with hashed password
+      role: 'admin'
+    # Employee/Student User
+    employee:
+      email: employee@example.com
+      name: Test Employee
+      password: '$2b$12$OKuCr.wtlTcEjxD6mT4H0ubfsKPpl5Y/kXFH6C3VcybvffCURi7jW' # Replace with hashed password
+      role: 'employee'
+cookie:
+  expiry_days: 30
+  key: 'a_random_secret_key_123' 
+  name: 'resume_app_cookie'

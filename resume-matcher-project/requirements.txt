@@ -1,0 +1,20 @@
+# Core Frameworks
+streamlit
+fastapi
+uvicorn[standard]
+
+# AI & Data Processing
+google-generativeai
+scikit-learn
+pandas
+rapidfuzz
+python-dotenv
+
+# Document Parsing
+PyMuPDF
+python-docx
+
+# Database
+SQLAlchemy
+psycopg2-binary  # For PostgreSQL, use `sqlite3` for SQLite (built-in)
+streamlit-authenticator
