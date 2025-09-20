@@ -123,7 +123,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- USER AUTHENTICATION ---
-with open('config.yaml') as file:
+with open('resume-matcher-project/config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
 authenticator = stauth.Authenticate(
